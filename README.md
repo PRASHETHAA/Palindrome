@@ -23,6 +23,31 @@ Step6:
 stop
 
 ## Program:
+using System;  
+namespace palindrome  
+{  
+    class Program  
+    {  
+        static void Main(string[] args)  
+        {  
+            string s,revs="";  
+            Console.WriteLine(" Enter string");  
+            s = Console.ReadLine();  
+            for (int i = s.Length-1; i >=0; i--) 
+            {  
+                revs += s[i].ToString();  
+            }  
+            if (revs == s) 
+            {  
+                Console.WriteLine("String is Palindrome");  
+            }  
+            else  
+            {  
+                Console.WriteLine("String is not Palindrome");  
+            }  
+        }  
+    }  
+}
 
 ## Output:
 ![palindrome](https://user-images.githubusercontent.com/75234942/163846797-87119e27-d80d-423d-9975-f1dd5630a6b7.png)
