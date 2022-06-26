@@ -23,6 +23,9 @@ print palindrome if it's equal else print not a palindrome.
 
 Step6:
 stop
+    
+    
+    
 <br>
 <br>
 <br>
@@ -40,13 +43,7 @@ stop
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
     
 ## Program:
 using System;  
